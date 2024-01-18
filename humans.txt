@@ -1,0 +1,58 @@
+                           ━━━━━━━━━━━━━━━━━
+                                 README
+
+                            Andy ( r4dian )
+                           ━━━━━━━━━━━━━━━━━
+
+
+Table of Contents
+─────────────────
+
+1. Open Hive War PWA Wrapper
+.. 1. What
+.. 2. Why
+
+
+
+
+
+1 Open Hive War PWA Wrapper
+═══════════════════════════
+
+1.1 What
+────────
+
+        Across the blackened industrial hives, gangs continually
+        fight for the control of territories, Enforcers fight to
+        execute the rule of law and the tentacles of insidious
+        cults worm their way through the populace. It is a world
+        where the most that anyone can hope for is survival, and
+        so it has bred people who are true survivors.
+
+  Just wraps an iframe containing *openhivewar.com* with the metadata
+  needed to make it a “Progressive Web App”
+
+  *The “Buy me a coffee” button is for the original author(s?) of
+   openhivewar.com*, no theft of labour going on here thank you.
+
+  This app can be used to generate a scenario for the Games Workshop
+  game Necromunda.
+
+
+1.2 Why
+───────
+
+  Install it on your phone & it opens as if it were a full app instead
+  of opening your browser & it (or you) getting lost among the tabs.
+
+  Visit [this live version hosted on surge.sh] to install it (if you
+  like).
+
+
+  …That’s about it.
+
+  <./icon-512-white.png>
+
+
+[this live version hosted on surge.sh]
+<https://andys-installable-open-hive-war.surge.sh/>

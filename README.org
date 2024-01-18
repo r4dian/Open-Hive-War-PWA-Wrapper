@@ -1,5 +1,5 @@
 #+title:  README
-#+AUTHOR: r4dian
+#+AUTHOR: Andy ( r4dian )
 #+EMAIL:  r4dian@users.noreply.github.com
 #+TODO:   TODO(t) STARTED(s) WAITING(w) | DONE(d) CANCELED(c)
 
@@ -19,9 +19,9 @@ This app can be used to generate a scenario for the Games Workshop game Necromun
 ** Why
 Install it on your phone & it opens as if it were a full app instead of opening your browser & it (or you) getting lost among the tabs.
 
-Visit [[https://andys-installable-open-hive-war.surge.sh/][this hosted version]] to install it (if you like).
+Visit [[https://andys-installable-open-hive-war.surge.sh/][this live version hosted on surge.sh]] to install it (if you like).
 
 
 ...That's about it.
 
-[[icon-512-white.png]]
+[[./icon-512-white.png]]
