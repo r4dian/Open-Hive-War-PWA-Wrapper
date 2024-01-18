@@ -1,0 +1,11 @@
+* Open Hive War PWA Wrapper
+
+** What 
+Just wraps an iframe containing https://openhivewar.com/ with the metadata needed to make it a "Progressive Web App"
+
+** Why
+Install it on your phone & it opens as if it were a full app instead of opening your browser & it (or you) getting lost among the tabs.
+
+...That's about it.
+
+[[icon-512-white.png]]
