@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- "USUAL" TITLE CHARSET DESCRIPTION VIEWPORT -->
+    <title>Open Hive War - Necromunda Scenarios</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A Web-App wrapper for Open Hive War's Necromunda scenario generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <!-- ICONS & PLATFORM SPECIFIC -->
+    <!-- GOOD OLD NORMAL FAVICON -->
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Android (and Chrome?) -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#564152">
+    <!-- Apple Bollocks -->
+    <link rel="apple-touch-icon" href="icon-512-white.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#564152">
+    <meta name="apple-mobile-web-app-title" content="Open Hive War - Necromunda Scenarios">
+    <!-- Windows 👍 -->
+    <meta name="msapplication-TileImage" content="icon-512-white.png">
+    <meta name="msapplication-TileColor" content="#564152">
+    <!--WEB APP MANIFEST
+        What's all this then
+        https://web.dev/add-manifest/ -->
+    <link rel="manifest" href="manifest.json">
+    <!-- SERVICE WORKER -->
+    <script>
+    if ("serviceWorker" in navigator) { navigator.serviceWorker.register("service.js"); }
+
+    // Necromunda bit to accept the same params as the app we're wrapping and pass it down:
+    var url = "https://openhivewar.com/";
+    window.onload = function() {
+      let params = new URLSearchParams(document.location.search);
+      let decodedMission = params.get("mission");
+      let matches = /mission=([^&#=]*)/.exec(window.location.search);
+      if (matches){
+        encodedMission = matches ? matches[1] :  "";
+        document.getElementsByTagName("title")[0].innerHTML += " - cards: " + decodedMission;
+        url += "?mission=" + encodedMission;
+      }
+      document.querySelector("#mainFrame").src=url;  
+    }
+    </script>
+
+    <style>
+    body, html {width: 100%; height: 100%; margin: 0; padding: 0}
+      .row-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: #564152; overflow: hidden;}
+      .first-row {background-color: #ef5438; height: var(--icon-height); }
+      .expanding-row { flex-grow: 1; border: none; margin: 0; padding: 0; }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+<body>
+    <div class="row-container">
+      <div class="first-row">
+      </div>
+      <!-- This is the actual app, which I neither authored, nor control. -->
+      <iframe id="mainFrame" src="" title="Open Hive War - Necromunda Scenarios"  class="expanding-row"></iframe>
+    </div>
+  </body>
+</html>

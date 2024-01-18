@@ -1,0 +1,26 @@
+{
+  "name": "Open Hive War - Necromunda Scenarios",
+  "short_name": "Open Hive War",
+  "icons": [{
+    "src": "favicon.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }, {
+    "src": "icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }, {
+    "src": "favicon-white.png",
+    "sizes": "64x64",
+    "type": "image/png"
+  }, {
+      "src": "icon-512-white.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }],
+  "start_url": "index.html",
+  "scope": "/",
+  "background_color": "grey",
+  "theme_color": "grey",
+  "display": "standalone"
+}
