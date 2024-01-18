@@ -22,6 +22,9 @@ Table of Contents
 1.1 What
 ────────
 
+  This app can be used to generate a scenario for the Games Workshop
+  game Necromunda.
+
         Across the blackened industrial hives, gangs continually
         fight for the control of territories, Enforcers fight to
         execute the rule of law and the tentacles of insidious
@@ -34,9 +37,6 @@ Table of Contents
 
   *The “Buy me a coffee” button is for the original author(s?) of
    openhivewar.com*, no theft of labour going on here thank you.
-
-  This app can be used to generate a scenario for the Games Workshop
-  game Necromunda.
 
 
 1.2 Why
