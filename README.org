@@ -12,6 +12,8 @@ Across the blackened industrial hives, gangs continually fight for the control o
 
 Just wraps an iframe containing *openhivewar.com* with the metadata needed to make it a "Progressive Web App"
 
+*The "Buy me a coffee" button is for the original author(s?) of openhivewar.com*, no theft of labour going on here thank you.
+
 This app can be used to generate a scenario for the Games Workshop game Necromunda.
 
 ** Why
